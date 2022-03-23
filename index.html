@@ -9,12 +9,23 @@
 </head>
 <body>
     <div class="container">
-        <h3>Don't Laugh Challenge</h3>
-        <div id="joke" class="joke">
-            // Joke goes here
+        
+        <button id="aud" class="btn">Start</button>
+        <form>
+            <div class="form-control">
+                 <input id="yourText" type="text">
+                 <label>Your word</label>
+            </div>
+        </form>
+        <audio id = "startMusic"src = "https://api.dictionaryapi.dev/media/pronunciations/en/stay-us.mp3" controls></audio>
+
+        <div id="speak" class="joke">
         </div>
-        <button id="jokeBtn" class="btn">Get Another Joke</button>
     </div>
+
+    
+
+
     <script src="script.js"></script>
 
 </body>
